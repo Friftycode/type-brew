@@ -1,0 +1,15 @@
+Task 8: Love reminders
+
+Tip: TypeScript OR type: https://www.webdevtutor.net/blog/typescript-type-or-and
+
+Oh no! I am a forgetful and anxious person in love. I need to be reminded and reassured of your love.
+Create a function that takes in one parameter of any type, depending on the parameter,
+return different statements of love.
+You can choose what to check on and what statements to return.
+The function should accept at least numbers, strings and booleans.
+
+Reference examples:
+    - 3 => I love you
+    - false => I'll always love you
+    - I am insecure => I got you, bebbehh
+    - 2433 => Forever is not enough time to be with you
