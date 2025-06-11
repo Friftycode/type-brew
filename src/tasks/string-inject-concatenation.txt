@@ -1,0 +1,12 @@
+Task 2: String inject concatenation
+
+Create one single function.
+Takes in two parameters that are text.
+Prints out one single text connecting them in this order: second input, the word "love" , first input.
+
+Examples of inputs and outputs:
+1. 'I am great', 'You are great' => 'You are great love I am great'
+2. 'Monday', 'Saturday' => 'Saturday love Monday'
+3. 'Sweetie', 'Darling' => 'Darling love Sweetie'
+4. 'Sugar', 'Cake' => 'Cake love Sugar'
+5. 'I am first', 'No, I am first' => 'No, I am first love I am first'
