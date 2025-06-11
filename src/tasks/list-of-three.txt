@@ -1,0 +1,14 @@
+Task 9: List of three
+
+Tip: Arrays: https://www.w3schools.com/typescript/typescript_arrays.php
+
+Create a single function that takes in three parameters, any type. Return a list including all three inputs.
+
+Note: I do NOT want a string with the signs [ and ] in the beginning and end,
+it should return a list type, not a string type.
+
+Examples:
+    - 1,2,3 => [1,2,3]
+    - a,b,c => [a,b,c]
+    - 28,yo,false => [28,yo,false]
+    - undefined,0,hi => [undefined,0,hi]
