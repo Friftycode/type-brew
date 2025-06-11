@@ -1,0 +1,10 @@
+Task 5: Compare numbers
+
+Create a function that checks if a number is bigger than the other, if bigger, return "BIGGER" if not, return "LOWER".
+If equal, you decide.
+
+Examples:
+- 4,7 => LOWER
+- 9,1 => BIGGER
+- 10,0 => BIGGER
+- 0,4 => LOWER
