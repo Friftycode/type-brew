@@ -1,0 +1,10 @@
+Task 7: Weekday number checker
+
+Tip: You will use the switch statement
+
+Write a function that takes in a number, return the name of the weekday that is on that number.
+
+If you follow the system that Monday is day 1 examples:
+- 2 => Tuesday
+- 7 => Sunday
+- 3 => Wednesday
