@@ -1,0 +1,26 @@
+Task 3: String multiplication
+
+Create one single function.
+Takes in two parameters, a text and a number.
+Console log the text as many times as the number says.
+
+
+Examples of inputs and outputs,
+the > is just to show separate lines printing out, you are not supposed to add them to the answer.
+
+1. "You are doing great!", 3 =>
+        > You are doing great!
+        > You are doing great!
+        > You are doing great!
+
+2. "Oh no, something went wrong...", 0 =>
+        >
+
+3. "Love four ever?", 4 =>
+        > Love four ever?
+        > Love four ever?
+        > Love four ever?
+        > Love four ever?
+
+4. "Sugarplum fireball cake", 1 =>
+        > Sugarplum fireball cake
