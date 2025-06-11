@@ -1,0 +1,24 @@
+Task 6: Change up numbers
+
+Using the function from task 5.
+
+Part 1.
+Take two numbers. The first one will add 5, and then check if it is bigger than the second number.
+If it is bigger, return that number, if not, return the second number.
+
+Examples:
+    - 4,7 => 9
+    - 1,8 => 8
+    - 7,2 => 12
+    - 4,88 => 88
+
+Part 2.
+Take two numbers. If the first one is bigger, return it immediately.
+If not, add 2 to until it is bigger and then return it.
+
+Examples:
+    - 9,3 => 9
+    - 1,8 => 9
+    - 2,11 => 12
+    - 1,2 => 3
+    - 2,1 => 2
