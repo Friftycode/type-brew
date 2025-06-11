@@ -1,0 +1,9 @@
+Task 1: Math operators
+
+Create four functions, each of them will take in two numbers and return the result of the operation for the following four math operators:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+
+Good luck, I love you.
