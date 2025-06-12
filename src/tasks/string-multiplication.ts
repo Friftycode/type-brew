@@ -1,5 +1,5 @@
-const stringMultiplication = (value1: string, value2: number): string => {
-    return (value1 + "\n").repeat(value2);
+const stringMultiplication = (text: string, times: number): void => {
+    for (let i = 0; i < times; i++) {
+        console.log(text);
+    }
 }
-
-console.log(stringMultiplication(string, number))
