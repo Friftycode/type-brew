@@ -1,4 +1,4 @@
-const fixedMiddleText: string = "Love";
+const fixedMiddleText: string = "love";
 
 const injectStrings = (
   userInputPrefixText: string,
