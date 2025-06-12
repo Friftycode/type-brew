@@ -5,9 +5,9 @@ const injectStrings = (
   userInputSuffixText: string,
 ): void => {
   const resultInjectStrings = [
-    userInputPrefixText,
-    fixedMiddleText,
     userInputSuffixText,
+    fixedMiddleText,
+    userInputPrefixText,
   ].join(" ");
   console.log(resultInjectStrings);
 };
