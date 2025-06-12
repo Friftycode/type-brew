@@ -1,5 +1,6 @@
-const userInputPrefixText: string = "Sweetie";
-const userInputSuffixText: string = "Darling";
 const fixedMiddleText: string = "Love";
 
-const concatenatedString: string = [userInputPrefixText, fixedMiddleText, userInputSuffixText].join(" ");
+const injectStrings = (userInputPrefixText: string, userInputSuffixText: string): void => {
+    const result = [userInputPrefixText, fixedMiddleText, userInputSuffixText].join(" ");
+    console.log(result);
+};
