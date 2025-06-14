@@ -1,4 +1,4 @@
-const printLoveReminders = (value: string | number | boolean): string => {
+const returnLoveRemindersValue = (value: string | number | boolean): string => {
   if (typeof value === "string") {
     return `I got you, bebbehh!`;
   } else if (typeof value === "number") {
