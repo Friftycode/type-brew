@@ -6,7 +6,7 @@ const printCompareNumbers = (
     console.log("BIGGER");
   } else if (firstValueInput < secondValueInput) {
     console.log("LOWER");
-  } else if (firstValueInput === secondValueInput) {
+  } else {
     console.log("you decide");
   }
 };
