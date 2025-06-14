@@ -1,4 +1,4 @@
-const loveReminders = (value: string | number | boolean): void => {
+const printLoveReminders = (value: string | number | boolean): void => {
   if (typeof value === "string") {
     console.log(`I got you, bebbehh!`);
   } else if (typeof value === "number") {
