@@ -3,7 +3,7 @@ const printCompareNumbers = (
   secondValueInput: number,
 ): void => {
   if (firstValueInput > secondValueInput) {
-    console.log("Bigger");
+    console.log("BIGGER");
   } else if (firstValueInput < secondValueInput) {
     console.log("LOWER");
   } else if (firstValueInput === secondValueInput) {
