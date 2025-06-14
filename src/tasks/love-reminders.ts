@@ -10,5 +10,3 @@ const returnLoveRemindersValue = (value?: unknown): string => {
   }
   return "No matter what, my love for you is unconditional.";
 };
-
-console.log(returnLoveRemindersValue());
