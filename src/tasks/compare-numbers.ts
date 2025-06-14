@@ -1,12 +1,12 @@
-const printCompareNumbers = (
+const returnCompareNumbers = (
   firstValueInput: number,
   secondValueInput: number,
-): void => {
+): string => {
   if (firstValueInput > secondValueInput) {
-    console.log("BIGGER");
+    return "BIGGER";
   } else if (firstValueInput < secondValueInput) {
-    console.log("LOWER");
+    return "LOWER";
   } else {
-    console.log("you decide");
+    return "you decide";
   }
 };
