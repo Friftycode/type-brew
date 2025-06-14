@@ -1,4 +1,4 @@
-const returnLoveRemindersValue = (value: string | number | boolean): string => {
+const returnLoveRemindersValue = (value?: unknown): string => {
   if (typeof value === "string") {
     return `I got you, bebbehh!`;
   } else if (typeof value === "number") {
@@ -10,3 +10,5 @@ const returnLoveRemindersValue = (value: string | number | boolean): string => {
   }
   return "No matter what, my love for you is unconditional.";
 };
+
+console.log(returnLoveRemindersValue());
