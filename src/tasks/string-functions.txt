@@ -1,0 +1,29 @@
+Task 11: String functions
+
+Tip: String functions: https://www.w3schools.com/js/js_string_methods.asp
+
+We will go through several small tasks to explore the different string functions.
+Try to figure out yourself which one you need to use for each task.
+Each task will require you to create one single function each and return the string or the specified value.
+
+1. How long is the string?
+    Examples:
+    "12342" => 4
+    "abc" => 3
+
+2. I only want to know what month it is.
+    From the api I get the date formatted like YYYY-MM-DD, but I only want the month part.
+    Examples:
+    2024-12-24 => 12
+    1994-04-12 => 04
+
+3. Where is the letter e and what character is in position 2?
+    Examples:
+    fireball => 3, r
+    Parrapppaeee => 9, r
+    eee => 0, e
+
+4. Take in two strings, make the first one uppercase, second lowercase, return combined.
+    Examples:
+    yo, bebbeh => YObebbeh
+    fire, ball => FIREball
