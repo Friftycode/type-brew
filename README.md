@@ -33,9 +33,8 @@ ideas and improving fluency with TypeScript.
 
 - Language: TypeScript
 - Tooling and Frameworks:
-  - [Vite](https://vitejs.dev/)
-  - [React](https://reactjs.org/)
-  - [Node.js](https://nodejs.org/)
+    - [Vite](https://vitejs.dev/)
+    - [React](https://reactjs.org/)
 
 ---
 
@@ -44,9 +43,16 @@ ideas and improving fluency with TypeScript.
 ```
 type-brew/
 │
-├── task-name.ts              # Code implementation of a specific task
-├── task-name.txt             # Description or notes for the task
-├── ...
+├── src/
+│ ├── tasks/ # Contains individual task implementations and descriptions
+│ │ ├── task-name.ts # TypeScript implementation of a specific task
+│ │ ├── task-name.txt # Description or notes for the task
+│ │ └── ...
+│ └── playground/ # Sandbox area for testing and quick experimentation
+│
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
 └── README.md
 ```
 
@@ -68,32 +74,33 @@ cd TypeBrew
 
 ### 2. Install dependencies (optional):
 
-This project doesn't depend on external packages yet, but you can still initialize it:
+Note: The project depends on several external packages including Vite, React, and TypeScript. Make sure to install
+dependencies before running.
 
 ```bash
 npm install
 ```
 
-### 3. Run TypeScript files:
+### 3. Run the project or tasks:
 
-You can use `ts-node` or compile and run using `tsc`.
+You can use ts-node or compile and run using tsc.
 
 ```bash
 # Option 1: Run directly with ts-node (recommended)
-npx ts-node your-task-file.ts
+npx ts-node src/tasks/your-task-file.ts
 
 # Option 2: Compile then run
-tsc your-task-file.ts
-node your-task-file.js
+tsc src/tasks/your-task-file.ts
+node src/tasks/your-task-file.js
 ```
 
 ---
 
 ## Usage
 
-- Each file in this repo is a standalone TypeScript task.
-- Open any `.txt` file to read the task description.
-- Open the corresponding `.ts` file to view or modify the solution.
+- Each file in the src/tasks/ folder is a standalone TypeScript task.
+- Open any .txt file to read the task description.
+- Open the corresponding .ts file to view or modify the solution.
 - You can experiment, refactor, or expand on the logic as needed.
 
 This structure is ideal for:
@@ -123,4 +130,3 @@ This structure is ideal for:
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Node.js](https://nodejs.org/)
