@@ -33,17 +33,16 @@ ideas and improving fluency with TypeScript.
 
 - Language: TypeScript
 - Tooling and Frameworks:
-    - [Vite](https://vitejs.dev/)
-    - [React](https://reactjs.org/)
-    - [Angular](https://angular.io/)
-    - [Node.js](https://nodejs.org/)
+  - [Vite](https://vitejs.dev/)
+  - [React](https://reactjs.org/)
+  - [Node.js](https://nodejs.org/)
 
 ---
 
 ## Folder Structure
 
 ```
-TypeBrew/
+type-brew/
 │
 ├── task-name.ts              # Code implementation of a specific task
 ├── task-name.txt             # Description or notes for the task
@@ -63,7 +62,7 @@ Each task follows a simple format:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Friftycode/TypeBrew.git
+git clone https://github.com/Friftycode/type-brew.git
 cd TypeBrew
 ```
 
@@ -107,17 +106,14 @@ This structure is ideal for:
 
 ## Development Approach
 
-1. Task-Oriented  
+1. Task-Oriented
    Each challenge is scoped narrowly to isolate learning objectives.
-
-2. Text + Code Pairing  
+2. Text + Code Pairing
    Descriptions are written in `.txt` files to mirror real problem statements.
-
-3. Iterative Practice  
-   Older tasks can be revisited and refactored.  
+3. Iterative Practice
+   Older tasks can be revisited and refactored.
    Emphasis on clarity, readability, and clean function structure.
-
-4. Formatting Consistency  
+4. Formatting Consistency
    Code is formatted consistently for readability and maintenance.
 
 ---
@@ -127,5 +123,4 @@ This structure is ideal for:
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Angular](https://angular.io/)
 - [Node.js](https://nodejs.org/)
