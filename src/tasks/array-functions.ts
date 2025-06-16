@@ -9,10 +9,14 @@ const taskTwoReplaceLastItem = (arr: any[], newItem: any): any[] => {
 };
 
 // Task 3: Print the length of the array, add an item, print the length again.
-const taskThreePrintLengthBeforeAndAfter = <T>(arr: T[], newItem: T): void => {
+const taskThreePrintLengthBeforeAndAfter = (
+  arr: any[],
+  newItem: any,
+): any[] => {
   console.log("Length before:", arr.length);
-  arr.push(newItem);
-  console.log("Length after:", arr.length);
+  const newArray = [...arr, newItem];
+  console.log("Length after:", newArray.length);
+  return newArray;
 };
 
 // Task 4: Flatten arrays with generics and type safety
