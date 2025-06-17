@@ -5,16 +5,24 @@ import {
   substractNumbers,
 } from './math-operators';
 
-const solveEquation = (a: number, b: number, c: number) => {
-  const equationOne = substractNumbers(addNumbers(a, b), c);
-  const equationTwo = b !== 0 ? multiplyNumbers(divideNumbers(a, b), c) : NaN;
-  const equationThree = multiplyNumbers(substractNumbers(a, b), c);
-
-  console.log(equationOne);
-  console.log(equationTwo);
-  console.log(equationThree);
-
-  return { equationOne, equationTwo, equationThree };
+// Equation One: a + b - c
+const calculateEquationOne = (a: number, b: number, c: number): number => {
+  const returnEquationOne = substractNumbers(addNumbers(a, b), c);
+  console.log(returnEquationOne);
+  return returnEquationOne;
 };
-console.log(solveEquation(1, 2, 3));
-export { solveEquation };
+
+// Equation Two: a / b * c
+const calculateEquationTwo = (a: number, b: number, c: number): number => {
+  const returnEquationTwo =
+    b !== 0 ? multiplyNumbers(divideNumbers(a, b), c) : NaN;
+  console.log(returnEquationTwo);
+  return returnEquationTwo;
+};
+
+// Equation Three: (a - b) * c
+const calculateEquationThree = (a: number, b: number, c: number): number => {
+  const returnEquationThree = multiplyNumbers(substractNumbers(a, b), c);
+  console.log(returnEquationThree);
+  return returnEquationThree;
+};
