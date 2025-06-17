@@ -12,9 +12,9 @@ const replaceLastItem = (arr: any[], newItem: any): any[] => {
 
 // Task 3: Print the length of the array, add an item, print the length again.
 const printLengthBeforeAndAfter = (arr: any[], newItem: any): any[] => {
-  console.log("Length before:", arr.length);
+  console.log('Length before:', arr.length);
   arr.push(newItem);
-  console.log("Length after:", arr.length);
+  console.log('Length after:', arr.length);
   return arr;
 };
 

@@ -1,12 +1,12 @@
 const returnCompareNumbers = (
   firstValueInput: number,
-  secondValueInput: number,
+  secondValueInput: number
 ): string => {
   if (firstValueInput > secondValueInput) {
-    return "BIGGER";
+    return 'BIGGER';
   } else if (firstValueInput < secondValueInput) {
-    return "LOWER";
+    return 'LOWER';
   } else {
-    return "you decide";
+    return 'you decide';
   }
 };

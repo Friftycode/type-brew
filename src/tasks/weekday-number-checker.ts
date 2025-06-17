@@ -1,20 +1,20 @@
 const printWeekdayName = (inputWeekDay: number): string => {
   switch (inputWeekDay) {
     case 0:
-      return "Monday";
+      return 'Monday';
     case 1:
-      return "Tuesday";
+      return 'Tuesday';
     case 2:
-      return "Wednesday";
+      return 'Wednesday';
     case 3:
-      return "Thursday";
+      return 'Thursday';
     case 4:
-      return "Friday";
+      return 'Friday';
     case 5:
-      return "Saturday";
+      return 'Saturday';
     case 6:
-      return "Sunday";
+      return 'Sunday';
     default:
-      return "Unknown Day";
+      return 'Unknown Day';
   }
 };

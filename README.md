@@ -33,8 +33,8 @@ ideas and improving fluency with TypeScript.
 
 - Language: TypeScript
 - Tooling and Frameworks:
-    - [Vite](https://vitejs.dev/)
-    - [React](https://reactjs.org/)
+  - [Vite](https://vitejs.dev/)
+  - [React](https://reactjs.org/)
 
 ---
 

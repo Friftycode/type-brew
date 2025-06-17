@@ -1,12 +1,12 @@
 const returnLoveRemindersValue = (value?: unknown): string => {
-  if (typeof value === "string") {
+  if (typeof value === 'string') {
     return `I got you, bebbehh!`;
-  } else if (typeof value === "number") {
+  } else if (typeof value === 'number') {
     return `I’d travel to the moon and back ${value} times, just to be by your side.`;
-  } else if (typeof value === "boolean") {
+  } else if (typeof value === 'boolean') {
     return value
-      ? "I’ll always love you."
-      : "Even through the toughest times, I’ll still love you.";
+      ? 'I’ll always love you.'
+      : 'Even through the toughest times, I’ll still love you.';
   }
-  return "No matter what, my love for you is unconditional.";
+  return 'No matter what, my love for you is unconditional.';
 };

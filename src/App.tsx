@@ -1,5 +1,5 @@
-import Playground from "./playground/Playground";
-import "./App.less";
+import Playground from './playground/Playground';
+import './App.less';
 
 function App() {
   return (

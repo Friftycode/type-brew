@@ -1,12 +1,12 @@
 const injectStrings = (
   userInputPrefixText: string,
-  userInputSuffixText: string,
+  userInputSuffixText: string
 ): void => {
-  const fixedMiddleText: string = "love";
+  const fixedMiddleText: string = 'love';
   const resultInjectStrings = [
     userInputSuffixText,
     fixedMiddleText,
     userInputPrefixText,
-  ].join(" ");
+  ].join(' ');
   console.log(resultInjectStrings);
 };
