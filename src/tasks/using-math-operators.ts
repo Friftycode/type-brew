@@ -12,10 +12,9 @@ const calculateEquationOne = (a: number, b: number, c: number): number => {
   return returnEquationOne;
 };
 
-// Equation Two: a / b * c
+// Equation Two: a / b * c. Divided by zero check is handled in the divideNumbers function in math-operators.ts
 const calculateEquationTwo = (a: number, b: number, c: number): number => {
-  const returnEquationTwo =
-    b !== 0 ? multiplyNumbers(divideNumbers(a, b), c) : NaN;
+  const returnEquationTwo = multiplyNumbers(divideNumbers(a, b), c);
   console.log(returnEquationTwo);
   return returnEquationTwo;
 };
