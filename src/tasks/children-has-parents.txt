@@ -1,0 +1,13 @@
+Task 18: Children has parents
+
+a. Update the Child object to have a parents property that is an array of Person objects.
+
+
+b. Update the Person interface to include a children property that is an array of Child objects, this is optional as not all adults have children.
+
+
+c. Create a function that takes in a child object and prints out the names of the child's parents (Can be just names or text, you choose).
+Examples:
+    - { name: 'Alice', age: 10, city: 'Los Angeles', school: 'Lincoln Elementary', parents: [{ name: 'John', age: 35, city: 'New York' }, { name: 'Jane', age: 33, city: 'New York' }] } => 'Alice\'s parents are John and Jane.'
+    - { name: 'Bob', age: 8, city: 'Chicago', school: 'Grant Elementary', parents: [{ name: 'Mike', age: 40, city: 'Chicago' }] } => 'Bob\'s parent is Mike.'
+    - { name: 'Charlie', age: 12, city: 'San Francisco', school: 'Mission High School' } => 'Charlie has no parents listed.'

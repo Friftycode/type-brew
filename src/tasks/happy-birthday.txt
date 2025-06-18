@@ -1,0 +1,14 @@
+Task 17: Happy birthday
+
+a. Create a function that takes in a person object, and returns a birthday message.
+
+Examples:
+ - { name: 'John', age: 30, city: 'New York' } => 'Happy birthday John! You are now 30 years old.'
+ 
+
+b. Create a function that takes in a person object and make them one year older, it's their birthday!
+
+Examples:
+ - { name: 'John', age: 30, city: 'New York' } => { name: 'John', age: 31, city: 'New York' }
+ - { name: 'Alice', age: 25, city: 'Los Angeles' } => { name: 'Alice', age: 26, city: 'Los Angeles' }
+ - { name: 'Bob', age: 40, city: 'Chicago' } => { name: 'Bob', age: 41, city: 'Chicago' }

@@ -1,0 +1,10 @@
+Task 12: Create a person object.
+
+Tip: https://www.geeksforgeeks.org/javascript/objects-in-javascript/
+
+Create a function that takes in a name, age, and city as parameters and returns an object with those properties.
+
+Examples:
+ - 'John', 30, 'New York' => { name: 'John', age: 30, city: 'New York' }
+ - 'Alice', 25, 'Los Angeles' => { name: 'Alice', age: 25, city: 'Los Angeles' }
+ - 'Bob', 40, 'Chicago' => { name: 'Bob', age: 40, city: 'Chicago' }

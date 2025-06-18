@@ -1,0 +1,9 @@
+Task 16: Find all the kids
+
+Write a function that takes in an array of person objects and returns an array of names of all the kids (people under 18 years old/attends school).
+There will be several ways to solve this, feel free to use any method you prefer, as well as creating several functions if you want to test out different methods.
+
+ Examples:
+ - [{ name: 'John', age: 30, city: 'New York' }, { name: 'Alice', age: 15, city: 'Los Angeles' }, { name: 'Bob', age: 10, city: 'Chicago' }] => ['Alice', 'Bob']
+ - [{ name: 'John', age: 30, city: 'New York' }, { name: 'Alice', age: 25, city: 'Los Angeles' }] => []
+ - [{ name: 'John', age: 30, city: 'New York' }, { name: 'Alice', age: 17, city: 'Los Angeles' }, { name: 'Bob', age: 18, city: 'Chicago' }] => ['Alice']

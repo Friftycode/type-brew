@@ -1,0 +1,10 @@
+Task 15: Create two new interfaces: Child and Adult
+
+Create two new interfaces: Child and Adult. The Child interface should extend the Person interface from task 14 and add a property for the child's school. 
+The Adult interface should also extend the Person interface and add a property for the adult's job title.
+
+Create two new functions that take in a person object and school/job title and return a new object that matches the Child or Adult interface based on the properties of the input object.
+
+Examples:
+ - Child: { name: 'Alice', age: 10, city: 'Los Angeles', school: 'Lincoln Elementary' }
+ - Adult: { name: 'John', age: 35, city: 'New York', jobTitle: 'Software Engineer' }

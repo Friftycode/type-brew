@@ -1,0 +1,9 @@
+Task 14: People interface
+
+Tip: https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php
+
+We will be using the person object from task 12 a lot, so let's create an interface for it.
+
+No functions needed, just the interface for the person object.
+
+Update the person functions from task 12 and 13 to use this interface.

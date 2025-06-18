@@ -1,0 +1,10 @@
+Task 13: Move people from city to city
+
+Oh, no! People are moving from one city to another, and we need to keep track of them.
+Create a function that takes in a person object (task 12) and a new city. Return a new object where the person has now moved to the new city.
+
+Examples:
+ - { name: 'John', age: 30, city: 'New York' }, 'Los Angeles' => { name: 'John', age: 30, city: 'Los Angeles' }
+ - { name: 'Alice', age: 25, city: 'Los Angeles' }, 'Chicago' => { name: 'Alice', age: 25, city: 'Chicago' }
+ - { name: 'Bob', age: 40, city: 'Chicago' }, 'Miami' => { name: 'Bob', age: 40, city: 'Miami' }
+ - { name: 'Bob', age: 40, city: 'Chicago' }, 'Chicago' => { name: 'Bob', age: 40, city: 'Chicago' }
