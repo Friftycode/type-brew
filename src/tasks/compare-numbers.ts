@@ -10,3 +10,5 @@ const returnCompareNumbers = (
     return 'you decide';
   }
 };
+
+export default returnCompareNumbers;
