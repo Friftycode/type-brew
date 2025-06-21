@@ -1,4 +1,4 @@
-const returnCompareNumbers = (
+const compareNumbers = (
   firstValueInput: number,
   secondValueInput: number
 ): string => {
@@ -10,3 +10,5 @@ const returnCompareNumbers = (
     return 'you decide';
   }
 };
+
+export default compareNumbers;
