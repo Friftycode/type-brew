@@ -1,6 +1,5 @@
-export const movePerson = (
-  person: { name: string; age: number; city: string },
-  newCity: string
-) => {
+import type { Person } from './people-interface';
+
+export const movePerson = (person: Person, newCity: string): Person => {
   return { ...person, city: newCity };
 };
