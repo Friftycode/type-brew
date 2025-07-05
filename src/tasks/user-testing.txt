@@ -1,0 +1,24 @@
+Task 21: User testing
+
+This is interesting, we will start this very simple. Pick one of your webpages and run it, have a user anyone you know, try to take a look at it and click through and see what they think.
+
+Prepare a few questions you want to have answered throughout the testing.
+
+Guidelines and tips:
+- Start by learning the user group they fit into. Are they very tech savvy? Are they very young? Any disabilities?
+- Don't say what to do or think, ask openly, let them figure out themselves.
+- Don't react positively or negatively to actions, try not to react at all.
+- Don't ask leading questions, it will persuade them to think a certain way is better and answer that.
+- Do tell them to just say everything they're thinking. Take notes.
+- Try to notice what they try to click on, what they don't try to click on. Why is that?
+- Did they figure out the point of the webpage? Was it easy? Was it difficult? Why?
+- Try to sort your thoughts in the answer.
+- Try to ask them to do something. Can they change the username? Can they find the settings page? Can they order a book? (This all depends on what page you choose to test)
+
+User testing is very important to do throughout the development phase, before, during and after.
+You get to learn what the users need and are looking for as well as seeing if what you're creating is actually good or not.
+
+This doesn't have to be big. Feel free to pick one of your one-page projects.
+
+Have fun with it! This is a first try, doesn't have to be perfect.
+Feel free to also look up templates for this, but I'd suggest to just wing it to try it out for now.

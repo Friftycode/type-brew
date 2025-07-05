@@ -1,0 +1,7 @@
+Task 19: Style a component two ways.
+
+We are making components again! You can decide mostly, but I want two identical components.
+First component will be styled with a styling file (less).
+The other will be styled inline with the html style property.
+
+Suggestion is to make a card box of some kind with a litle fun styling to show your work.

@@ -1,0 +1,21 @@
+Task 22: Repeat the strings.
+
+Create a function that takes in two arrays. One is strings and the other is numbers.
+
+For each of the index print the string for that number of times. If either list is too long then return just the remainder.
+
+Examples:
+ - ["yo", "hi", "bye"], [1,2,3,4] -> [4]
+ prints:
+    yo
+    hi
+    hi
+    bye
+    bye
+    bye
+
+ - ["hello", "my","blep"], [0,3] -> ["blep"]
+ prints:
+    my
+    my
+    my

@@ -1,0 +1,10 @@
+Task 23: Multiply unknown indexes
+
+Create a function that takes in two lists of numbers.
+
+For each index in the second list, multiply the numbers in the first list in that position. Return the result.
+
+Examples:
+- [2,5,1,6,2], [0,2,4] -> 4     //2*1*2
+- [5,22,19,0,1], [1,2,3] -> 0   //22*19*0
+- [1,2,3,4], [0,3] -> 4         //1*4
