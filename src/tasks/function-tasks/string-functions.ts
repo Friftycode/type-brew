@@ -1,4 +1,4 @@
-const stringCount = (input: string): number => {
+const getWordLength = (input: string): number => {
   return input.length;
 };
 
@@ -12,6 +12,6 @@ const findEandCharAtTwo = (input: string): string => {
   return `${eIndex}, ${charAtTwo}`;
 };
 
-const convertCase = (inputOne: string, inputTwo: string): string => {
+const getFormattedStringCase = (inputOne: string, inputTwo: string): string => {
   return `${inputOne.toUpperCase()}${inputTwo.toLowerCase()}`;
 };
