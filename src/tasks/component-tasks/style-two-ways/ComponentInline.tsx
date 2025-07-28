@@ -8,6 +8,7 @@ const cardInline = () => {
   return (
     <div
       style={{
+        fontSize: '1rem',
         maxWidth: '500px',
         backgroundColor: '#222',
         margin: '15px auto',
