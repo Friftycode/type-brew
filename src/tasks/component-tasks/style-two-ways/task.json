@@ -1,0 +1,11 @@
+{
+  "task": 19,
+  "title": "Style a component two ways",
+  "description": "We are making components again! You can decide mostly, but I want two identical components. First component will be styled with a styling file (less). The other will be styled inline with the html style property.  Suggestion is to make a card box of some kind with a litle fun styling to show your work.",
+  "requirements": [
+    "Create two identical React components",
+    "First component styled with a LESS file",
+    "Second component styled with inline styles",
+    "Component example: card box with creative styling"
+  ]
+}
