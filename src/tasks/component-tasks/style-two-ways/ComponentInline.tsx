@@ -1,7 +1,7 @@
-import Task from './task.json';
+import task from './task.json';
 
 const cardInline = () => {
-  const requirementsList = Task.requirements.map((req: string, idx: number) => (
+  const requirementsList = task.requirements.map((req: string, idx: number) => (
     <li key={idx}>{req}</li>
   ));
 
@@ -19,8 +19,8 @@ const cardInline = () => {
         justifyContent: 'center',
       }}
     >
-      <h2>{Task.title}</h2>
-      <p>{Task.description}</p>
+      <h2>{task.title}</h2>
+      <p>{task.description}</p>
       <ul>{requirementsList}</ul>
     </div>
   );
