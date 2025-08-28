@@ -1,6 +1,7 @@
 export default {
   extends: ['stylelint-config-standard-less', 'stylelint-prettier/recommended'],
   ignoreFiles: ['node_modules', 'frontend/dist/**'],
+  plugins: ['stylelint-order'],
   rules: {
     'block-no-empty': true,
     'selector-class-pattern': [
@@ -17,5 +18,12 @@ export default {
       },
     ],
     'color-function-notation': 'legacy',
+    'order/properties-alphabetical-order': true,
   },
+  overrides: [
+    {
+      files: ['**/*.css', '**/*.less', '**/*.module.less'],
+      customSyntax: 'postcss-less',
+    },
+  ],
 };
