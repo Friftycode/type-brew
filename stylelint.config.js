@@ -22,7 +22,7 @@ export default {
   },
   overrides: [
     {
-      files: ['**/*.css', '**/*.less', '**/*.module.less'],
+      files: ['**/*.less', '**/*.module.less'],
       customSyntax: 'postcss-less',
     },
   ],
