@@ -38,10 +38,10 @@ This work is part of my exam portfolio. Reviewer should check that it:
 - **Code Quality**: Clean, maintainable, and performant.
 - **Reflection**: Shows awareness of design choices and improvements.
 - **Standards & Ethics**: Meets goals, user needs, and ethical requirements.
-    - Reviewer should verify that the work:
-        1. Follows formal requirements for design and submission.
-        2. Considers ethics and privacy.
-        3. Uses sources correctly and transparently.
+  - Reviewer should verify that the work:
+    1. Follows formal requirements for design and submission.
+    2. Considers ethics and privacy.
+    3. Uses sources correctly and transparently.
 
 ### **Resources**
 
