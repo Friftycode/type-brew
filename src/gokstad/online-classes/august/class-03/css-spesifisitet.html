@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spesifisitet Eksempel</title>
+    <style>
+      p {
+        color: blue; /* spesifisitet 0,0,1 */
+      }
+
+      .highlight {
+        color: green; /* spesifisitet 0,1,0 */
+      }
+
+      #important {
+        color: red; /* spesifisitet 1,0,0 */
+      }
+
+      .note {
+        color: orange; /* spesifisitet 0,1,0 */
+      }
+
+      .note {
+        color: purple; /* spesifisitet 0,1,0 */
+      }
+    </style>
+  </head>
+  <body>
+    <p>Denne teksten blir blå (elementvelger vinner alene)</p>
+    <p class="highlight">
+      Denne teksten blir grønn (klasse overstyrer element)
+    </p>
+    <p class="highlight" id="important">
+      Denne teksten blir rød (id overstyrer både klasse og element)
+    </p>
+    <p class="note">
+      Denne teksten blir lilla (to regler med samme spesifisitet, den siste
+      vinner)
+    </p>
+  </body>
+</html>
