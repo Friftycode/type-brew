@@ -1,0 +1,10 @@
+Task 27: Try catch an error.
+
+We want to use the function from the previous task, but we want to handle the error gracefully.
+
+Create a function that calls the function from the previous task inside a try block.
+If an error is thrown, catch it and return a sensible message to the user.
+Otherwise, return the length of the string in a message.
+
+This function will also take in a parameter that can either be a string or undefined,
+and then call the previous function with that parameter.

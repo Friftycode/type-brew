@@ -1,0 +1,7 @@
+Task 26: Throw error
+
+We want a function that can throw an error if it receives undefined as a parameter.
+
+Create a function that takes in a parameter that can either be a string or undefined.
+If the parameter is a string, return its length.
+If the parameter is undefined, throw an error.
