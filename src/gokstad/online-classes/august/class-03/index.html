@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Uke 3 - Form</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form>
+        <label class="container">Fornavn</label>
+        <input maxlength="20" minlength="2" required type="text" />
+
+        <label class="container">Etternavn</label>
+        <input maxlength="20" minlength="2" required type="text" />
+
+        <label class="container">Adresse</label>
+        <input minlength="2" required type="text" />
+
+        <label class="container">Postnummer</label>
+        <input
+          id="zipcode-input"
+          max="9999"
+          min="0001"
+          name="zipcode"
+          required
+          type="number"
+        />
+
+        <label class="container">Poststed</label>
+        <input id="city-input" minlength="2" name="city" required type="text" />
+
+        <label class="container">E-post</label>
+        <input required type="email" />
+
+        <label class="container">Telefonnummer</label>
+        <input
+          id="phone-number-input"
+          maxlength="20"
+          minlength="8"
+          name="phone-number"
+          required
+          type="tel"
+        />
+
+        <input
+          class="container"
+          id="confirm-input"
+          name="confirm"
+          required
+          type="checkbox"
+        />
+        <label
+          >Jeg bekrefter at jeg kan bli kontaktet angående min bestilling</label
+        >
+
+        <button type="submit">Bestill</button>
+      </form>
+    </main>
+  </body>
+</html>
