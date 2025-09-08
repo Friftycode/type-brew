@@ -1,0 +1,25 @@
+Task 24: Type Brew frontpage deserves a better look!
+
+With all your work here, we should be able to display it in a much nicer way.
+
+I will give you two options, or choose a new one yourself.
+1. We will setup so it is easier to solve your tasks.
+The frontpage will display the text of your current task, the examples to go through and your input and output.
+This should help your screenshots and maybe make it easier to see the code.
+
+2. We will setup to simply get an overview and simply display your tasks.
+This one will be easier and probably much better to start with.
+
+Task:
+For this task we will focus on only the frontpage and move things to add pages and links eventually.
+Update the frontpage with a nicer header and description of what Type Brew is.
+
+For option 1:
+Add a section that will display your current task. Try if you can import the text file and display it nicely.
+Remember a title and description to explain what is happening here,
+as well as good design so we know that this section is part of the task.
+
+For option 2:
+Then add a list of your tasks with links to each task page.
+For each task, display the title, short description and how many examples you have.
+You don't have to do all the tasks, we are just preparing.
