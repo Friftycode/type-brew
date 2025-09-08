@@ -1,0 +1,17 @@
+Task 25: Reusable input box component
+
+I have big plans for you. For that we need a reusable input box component.
+
+This component should ask the user for either string or number input.
+It should also have a label to explain what the user should input.
+
+There should be functions hidden from the user that will handle the received value.
+This could handled outside the input box itself, as in a parent component.
+
+To showcase, you can add it to the frontpage and have two input boxes.
+One for string input and one for number input.
+Display the received value below both input boxes.
+
+Feel free to add validation as you see fit.
+
+You can make a container component to handle the state and functions if you want; that will display the two input boxes.
