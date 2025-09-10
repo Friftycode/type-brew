@@ -190,6 +190,7 @@ nav {
     background: var(--color-signature);
     color: var(--color-background);
     outline: none;
+    text-decoration: none;
   }
 
   @media (width <= 1040px) {
