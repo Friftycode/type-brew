@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>TypeBrew</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <picture>
+          <source media="(max-width: 1450px)" srcset="./assets/logo.svg" />
+          <source media="(min-width: 1450px)" srcset="./assets/logo-full.svg" />
+          <img alt="logo" src="./assets/logo-full.svg" />
+        </picture>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="nav-items" id="nav-main">
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Job Board</a></li>
+          <li><a href="#">Podcasts</a></li>
+          <li><a href="#">Write for us</a></li>
+          <li><a href="#">Advertise with us</a></li>
+        </ul>
+        <button class="more-btn" id="more-btn">More ▼</button>
+        <ul class="nav-sub hidden" id="nav-sub"></ul>
+      </nav>
+      <div class="nav-search">
+        <label>
+          <input
+            class="nav-seach-input"
+            placeholder="Search articles..."
+            type="text"
+          />
+        </label>
+      </div>
+    </header>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const mainNav = document.getElementById('nav-main');
+        const subNav = document.getElementById('nav-sub');
+        const moreBtn = document.getElementById('more-btn');
+        const navContainer = document.querySelector('.main-nav');
+
+        moreBtn.addEventListener('click', () => {
+          subNav.classList.toggle('hidden');
+          subNav.classList.toggle('visible');
+
+          updateButtonLabel();
+        });
+
+        function isOverflowing() {
+          const buffer = 20;
+          const containerRight =
+            navContainer.getBoundingClientRect().right -
+            moreBtn.offsetWidth -
+            buffer;
+          const items = mainNav.children;
+
+          if (items.length === 0) return false;
+
+          const lastItem = items[items.length - 1];
+          const lastItemRight = lastItem.getBoundingClientRect().right;
+
+          return lastItemRight > containerRight;
+        }
+
+        function adjustNav() {
+          while (subNav.children.length > 0 && !isOverflowing()) {
+            mainNav.appendChild(subNav.firstChild);
+          }
+
+          while (isOverflowing() && mainNav.children.length > 0) {
+            subNav.insertBefore(mainNav.lastChild, subNav.firstChild);
+          }
+
+          updateButtonLabel();
+        }
+
+        function updateButtonLabel() {
+          const isOpen = subNav.classList.contains('visible');
+          if (subNav.children.length === 0) {
+            moreBtn.textContent = 'Less ▲';
+          } else {
+            moreBtn.textContent = isOpen ? 'Less ▲' : 'More ▼';
+          }
+          moreBtn.setAttribute('aria-expanded', isOpen);
+          moreBtn.setAttribute('aria-controls', 'nav-sub');
+        }
+
+        const observer = new ResizeObserver(() => adjustNav());
+        observer.observe(navContainer);
+
+        adjustNav();
+      });
+    </script>
+  </body>
+</html>
