@@ -1,0 +1,12 @@
+Task 28: Combine lists
+
+We will have a function that takes in three parameters: three lists of integers.
+
+The function will return the first list, but with the second list added at the positions listed in the third list
+If the second list is longer than the third list, the remaining elements of the second list will be added to the end of the first list.
+If the third list is longer than the second list, the remaining positions will be ignored.
+
+Examples:
+insert_lists([1, 2, 3], [4, 5], [0, 2]) ➞ [4, 1, 2, 5, 3]
+insert_lists([1, 2, 3], [4, 5, 6], [0, 2]) ➞ [4, 1, 2, 5, 3, 6]
+insert_lists([1, 2, 3], [4, 5], [0, 2, 4]) ➞ [4, 1, 2, 5, 3]
